@@ -5,6 +5,11 @@ public class mainClass {
         System.out.println(Test());
         System.out.println(Test2());
 
+        // check number 101
+
+        // check number 5
+
+
     }
     public static void Test(){
         int a = 0;
