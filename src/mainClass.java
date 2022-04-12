@@ -1,10 +1,10 @@
 
 public class mainClass {
     public static void main(String[] args) {
-        Test();
-        Test2();
-        System.out.println(Test());
-        System.out.println(Test2());
+
+
+        Test2(5);
+        System.out.println(Test2(5));
 
         // check number 101
 
@@ -22,14 +22,15 @@ public class mainClass {
         sum = a + b;
 
     }
-    public static int Test2 (){
+    public static int Test2 (int sum){
+
         int a = 0;
         int b = 0;
-        int sum = 0;
 
         a = 7;
         b = 5;
         sum = a + b;
+        return sum;
     }
 }
 
